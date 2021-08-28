@@ -1,0 +1,14 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "db-export-json": {
+      "script-ref": "https://github.com/poser55/linked-db-rows/blob/HEAD/JsonExport.java",
+      "description": "Exports a table and its linked tables as JSON. Writes the JSON to stdout (other output to stderr), you can use > myFile.json to get it in a file."
+    },
+	"db-import-json": {
+      "script-ref": "https://github.com/poser55/linked-db-rows/blob/HEAD/JsonImport.java",
+      "description": "Imports a table and its linked tables from JSON."
+    }
+  }
+}
+	
